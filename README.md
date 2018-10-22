@@ -7,5 +7,6 @@ $ ./a.out
 To specify the output filename as `hello`
 ```bash
 $ g++ -o hello hello.cpp
+$ ./hello
 ```
 
