@@ -35,7 +35,7 @@ int main()
    	cout << "Error opening file" << endl;
 	return -1;
 	} else{
-		for(int i=0; ! reader.eof()g i++){ //eof: end of file
+		for(int i=0; ! reader.eof(); i++){ //eof: end of file
 			reader.get(letter);
 			cout << letter;
     	}
